@@ -1,0 +1,7 @@
+#Linear search - time complexity: O(N)
+
+to improve the searching time we go for binary search
+
+#Binary search - time complexity: O(log N to the base 2)
+  condition for binary search: array must be sorted
+  
