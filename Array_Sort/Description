@@ -1,0 +1,9 @@
+***************************** Types of techniques to sort arrays *************************
+
+1. SELECTION Sort: Find the minimum element in unsorted array and swap it with element at the beginning.
+            Time Complexity: O(n^2)
+            Space Complexity: O(1)
+           
+2. BUBBLE Sort: Repeatedly swap two adjacent elements if they are in wrong order.           
+            Time Complexity: O(n)
+            Space Complexity: O(1)
