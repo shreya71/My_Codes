@@ -5,9 +5,13 @@
             Space Complexity: O(1)
            
 2. BUBBLE Sort: Repeatedly swap two adjacent elements if they are in wrong order.           
-            Time Complexity: O(n)
+            Time Complexity: O(n^2)
             Space Complexity: O(1)
  For n element array, we need to do n-1 iterations before we get our sorted array.
  For ith iteration, we go upto n-ith element
+ 
+3. INSERTION Sort: Insert an element from unsorted array to the correct position in its sorted array.
+            Time Complexity: O(n^2)
+            Space Complexity: O(1)
  
  
