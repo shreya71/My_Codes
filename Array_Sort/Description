@@ -13,5 +13,10 @@
 3. INSERTION Sort: Insert an element from unsorted array to the correct position in its sorted array.
             Time Complexity: O(n^2)
             Space Complexity: O(1)
+            
+4. MERGE Sort: It is a type of divide and conquer algorithm in which we recursively call merge sort function tp divide our array to the simplest form possible then 
+               keep sorting and merging the elements simultaneously. 
+            Time Complexity: O(nlogn)
+            Space Complexity:            
  
  
