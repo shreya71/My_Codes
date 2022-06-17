@@ -1,3 +1,5 @@
+// Time Complexity: O(n) , n is size of LL
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
