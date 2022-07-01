@@ -7,7 +7,9 @@ BINARY TREE
                      /  \
                     2    3
                    / \  / \
-                  4  5 6   7
+                  4  5 6   7 
+                  
+Time Complexity: O(N)                  
 *******************************************************************************/
 #include <iostream>
 #include <bits/stdc++.h>
