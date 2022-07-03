@@ -10,6 +10,9 @@ BINARY TREE
                        
 LEVEL ORDER TRAVERSAL
 value: 1, 2, 3, 4, 5, 6, 7         sum at 2nd lvl = 4+5+6+7 = 22
+
+APPROACH: Queue used, refer level order transversal. Only difference is as soon as we get lvl == required Kth level, we add the root's data.
+
 *******************************************************************************/
 #include <iostream>
 #include <bits/stdc++.h>
