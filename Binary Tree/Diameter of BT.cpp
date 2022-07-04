@@ -54,7 +54,9 @@ int diameter(Node* root)
     return 0;
     int left_height = height(root->left), right_height = height(root->right) ;
     int curdiameter = left_height + right_height + 1 ;
-    return max(curdiameter, max(left_height, right_height)) ;
+     int left_diameter = diameter(root->left);
+    int right_diameter = diameter(root->right);
+    return max(curdiameter, max(left_diameter, right_diameter)) ;
 }
 
 int main ()
