@@ -93,5 +93,5 @@ int main ()
   //root->right->left = new Node (6);
   //root->right->right = new Node (7);
   
-  cout <<printNodesAt_K(root, root->left, 1) <<  endl;
+  printNodesAt_K(root, root->left, 1) ;
 }
