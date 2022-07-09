@@ -1,9 +1,8 @@
 /**********************************************************************************************************************************************
-PROBLEM: Find the distance between two nodes in a binary tree. The distance between the two nodes is the
-         minimum number of edges to be traversed to reach one node from another.
+PROBLEM: Lowest Common ancestor in a BT for n1 and n2.
 
-APPROACH: let the two nodes be n1 and n2, We first find the LCA for two nodes(Lowest Common Ancestor).
-          Find the distance of n1 and n2 from LCA say. d1 and d2 respectively, return d1+d2.
+APPROACH: We find the complete path of n1 and n2 starting from root node and store it in a vector. Then traversing both vector paths we find the first node where path change 
+          occurs so we send a node before that as the LCA of n1 and n2.
 
 BINARY TREE
                        1                                   1          
