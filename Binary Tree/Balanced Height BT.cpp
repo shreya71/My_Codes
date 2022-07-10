@@ -47,7 +47,7 @@ bool balanced(Node* root)
 {
     if(root == NULL)
     return 1;
-    if(balanced(root->left) == false)
+    if(balanced(root->left) == false)                 //
     return 0;
     if(balanced(root->right) == false)
     return 0;
